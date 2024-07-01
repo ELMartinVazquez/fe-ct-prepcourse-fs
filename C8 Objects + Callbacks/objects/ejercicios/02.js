@@ -6,4 +6,6 @@ function actualizarValorPropiedad(objeto, propiedad, valor) {
    return objeto;
 }
 
+console.log(actualizarValorPropiedad({nombre:"Elvia", edad: 18},"nombre", "Luz" ));
+
 module.exports = actualizarValorPropiedad;
